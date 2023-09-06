@@ -8,7 +8,7 @@ project(NIT VERSION 0.0.0 LANGUAGES CXX)
 
 option(NIT_WITH_COVERAGE "Instrument for coverage analysis" OFF)
 option(NIT_BUILD_CLI "Build command-line tools" ON)
-option(NIT_BUILD_TESTS "Build tests" ON)
+option(NIT_BUILD_TESTS "Build tests" OFF)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  # Needed for Clang Tooling.
 
